@@ -14,9 +14,9 @@ Gem::Specification.new do |s|
   s.files             = Dir["{app,config,db,lib}/**/*"] + ["README.md", "CHANGELOG.md"]
 
   # Runtime dependencies
-  s.add_dependency             'refinerycms-core',    '~> 2.0.10'
-  s.add_dependency             'refinerycms-i18n',    '~> 2.0.0'
+  s.add_dependency             'refinerycms-core',    '~> 2.1.0'
+  s.add_dependency             'refinerycms-i18n',    '~> 2.1.0'
 
   # Development dependencies (usually used for testing)
-  s.add_development_dependency 'refinerycms-testing', '~> 2.0.10'
+  s.add_development_dependency 'refinerycms-testing', '~> 2.1.0'
 end
